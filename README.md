@@ -1,10 +1,11 @@
 ## Initial Setup:
 
-create a virtual environment
+create a virtual environment outside the folder
 ```
 $ python -m venv venv
 $ venv\Scripts\activate.bat
 ```
+
 Install dependencies
 ```
 $ python -m pip install -r requirements.txt
