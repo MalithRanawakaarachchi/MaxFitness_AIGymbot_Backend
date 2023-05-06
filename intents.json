@@ -1,0 +1,128 @@
+{
+  "intents": [
+    {
+      "tag": "name",
+      "patterns": ["who are you", "what is your name"],
+      "responses": [
+        "im your med-bot",
+        "im your medical assistant",
+        "chat bot your ai medical assistant"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Heart Attack Symptoms",
+      "patterns": [
+        "What are the symptoms of a heart attack?",
+        "What are the signs of a heart attack?",
+        "How do I know if I'm having a heart attack?",
+        "What does a heart attack feel like?"
+      ],
+      "responses": [
+        "Common symptoms of a heart attack include chest pain, shortness of breath, nausea, lightheadedness, and discomfort in the arms, neck, jaw, or back. If you are experiencing any of these symptoms, seek medical attention immediately."
+      ]
+    },
+    {
+      "tag": "Lowering Blood Pressure",
+      "patterns": [
+        "How can I lower my blood pressure?",
+        "What are some ways to reduce high blood pressure?",
+        "What lifestyle changes can I make to lower my blood pressure?",
+        "What foods should I eat to lower my blood pressure?"
+      ],
+      "responses": [
+        "To lower your blood pressure, you can try making lifestyle changes such as exercising regularly, reducing your salt intake, eating a healthy diet, quitting smoking, and limiting your alcohol consumption. In some cases, medication may also be necessary."
+      ]
+    },
+    {
+      "tag": "Concussion Symptoms",
+      "patterns": [
+        "How do I know if I have a concussion?",
+        "What are the symptoms of a concussion?",
+        "What happens when you have a concussion?",
+        "How is a concussion diagnosed?"
+      ],
+      "responses": [
+        "Concussions can cause a range of symptoms, including headache, dizziness, nausea, confusion, sensitivity to light and sound, and memory problems. If you have experienced a blow to the head and are experiencing any of these symptoms, you should seek medical attention."
+      ]
+    },
+    {
+      "tag": "Flu Prevention",
+      "patterns": [
+        "How can I prevent the flu?",
+        "What are some ways to avoid getting the flu?",
+        "Is there anything I can do to reduce my risk of getting the flu?",
+        "What precautions should I take to avoid catching the flu?"
+      ],
+      "responses": [
+        "You can help prevent the flu by getting vaccinated, washing your hands regularly, avoiding close contact with sick individuals, covering your mouth and nose when coughing or sneezing, and staying home if you are sick."
+      ]
+    },
+    {
+      "tag": "Diabetes Symptoms",
+      "patterns": [
+        "What are the symptoms of diabetes?",
+        "How do I know if I have diabetes?",
+        "What are the warning signs of diabetes?",
+        "What does it feel like to have diabetes?"
+      ],
+      "responses": [
+        "Symptoms of diabetes include frequent urination, increased thirst, hunger, fatigue, blurred vision, and slow-healing sores or infections. If you are experiencing any of these symptoms, you should see a doctor for testing."
+      ]
+    },
+    {
+      "tag": "Asthma Management",
+      "patterns": [
+        "What can I do to manage my asthma?",
+        "How can I control my asthma?",
+        "What are some ways to improve my asthma symptoms?",
+        "How can I prevent asthma attacks?"
+      ],
+      "responses": [
+        "To manage your asthma, you can try using an inhaler as prescribed by your doctor, avoiding triggers that can worsen your symptoms (such as smoke or pollen), maintaining a healthy weight, and following a treatment plan as recommended by your doctor."
+      ]
+    }
+  ]
+}
