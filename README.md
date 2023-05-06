@@ -25,3 +25,7 @@ python chat.py
 
 ## run the web server application
 python server.py
+
+## run this after any new package installed
+
+python -m pip freeze > requirements.txt

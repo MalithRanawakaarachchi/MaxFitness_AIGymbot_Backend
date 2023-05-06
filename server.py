@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 import random
 import json
 
@@ -7,6 +8,7 @@ from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
 app = Flask(__name__)
+CORS(app)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
