@@ -1,0 +1,716 @@
+{
+    "Beginner": {
+      "Chest": [
+         {
+           "name": "Dumbbell Chest Press",
+           "target": "Chest",
+           "equipment": "Dumbbells",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "One-Arm Dumbbell Fly",
+           "target": "Chest",
+           "equipment": "Dumbbells",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Dumbbell Fly",
+           "target": "Chest",
+           "equipment": "Dumbbells",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "One-Arm Dumbbell Chest Press",
+           "target": "Chest",
+           "equipment": "Dumbbells",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         }
+       ],
+       "Legs": [
+         {
+           "name": "Leg Press Machine Variations",
+           "target": "Legs",
+           "equipment": "Leg Press Machine",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Diamond Push-ups",
+           "target": "Legs",
+           "equipment": "N/A",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Single-Leg Leg Extension",
+           "target": "Legs",
+           "equipment": "Leg Extension Machine",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Inward Pointing Leg Extensions",
+           "target": "Legs",
+           "equipment": "Leg Extension Machine",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         }
+       ],
+       "Arms": [
+         {
+           "name": "Arnold Presses",
+           "target": "Arms",
+           "equipment": "Dumbbells",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Diamond Push-ups",
+           "target": "Arms",
+           "equipment": "N/A",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Weighted Dips",
+           "target": "Arms",
+           "equipment": "Weighted Dips",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Single-Arm Dumbbell Rows",
+           "target": "Arms",
+           "equipment": "Dumbbells",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Supinated Close-Grip Pull-ups",
+           "target": "Arms",
+           "equipment": "Pull-up Bars",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         }
+       ],
+       "Abs": [
+         {
+           "name": "Ab Wheels",
+           "target": "Abs",
+           "equipment": "Ab Wheels",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Glute Bridges",
+           "target": "Abs",
+           "equipment": "Dumbbells",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Vacuum Holds",
+           "target": "Abs",
+           "equipment": "N/A",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Side Planks",
+           "target": "Abs",
+           "equipment": "N/A",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         }
+       ],
+       "Back": [
+         {
+           "name": "Lat Pulldowns",
+           "target": "Back",
+           "equipment": "Lat Pulldown Machine",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Pull-ups",
+           "target": "Back",
+           "equipment": "Pull-up Bars",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Rack Pulls",
+           "target": "Back",
+           "equipment": "Weighted Dips",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Supermans",
+           "target": "Back",
+           "equipment": "N/A",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Russian Kettlebell Swings",
+           "target": "Back",
+           "equipment": "Kettlebell",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Barbell Good Mornings",
+           "target": "Back",
+           "equipment": "Barbell",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         }
+       ],
+       "Shoulders": [
+         {
+           "name": "Front Raises",
+           "target": "Shoulders",
+           "equipment": "Dumbbells",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Bench Press",
+           "target": "Shoulders",
+           "equipment": "Barbell, Bench",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Barbell Upright Row",
+           "target": "Shoulders",
+           "equipment": "Barbell",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Barbell Overhead Press",
+           "target": "Shoulders",
+           "equipment": "Barbell",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         },
+         {
+           "name": "Supported Incline Dumbbell Rows",
+           "target": "Shoulders",
+           "equipment": "Dumbbells",
+           "sets": 3,
+           "reps": "10-12",
+           "rest": "60-90"
+         }
+       ]
+    },
+    "Intermediate":{
+      "Chest": [
+         {
+           "name": "Dumbbell Chest Press",
+           "target": "Chest",
+           "equipment": "Dumbbells",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         },
+         {
+           "name": "One-Arm Dumbbell Fly",
+           "target": "Chest",
+           "equipment": "Dumbbells",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         },
+         {
+           "name": "Dumbbell Fly",
+           "target": "Chest",
+           "equipment": "Dumbbells",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         },
+         {
+           "name": "One-Arm Dumbbell Chest Press",
+           "target": "Chest",
+           "equipment": "Dumbbells",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         }
+       ],
+       "Legs": [
+         {
+           "name": "Leg Press Machine Variations",
+           "target": "Legs",
+           "equipment": "Leg Press Machine",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         },
+         {
+           "name": "Diamond Push-ups",
+           "target": "Legs",
+           "equipment": "N/A",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         },
+         {
+           "name": "Single-Leg Leg Extension",
+           "target": "Legs",
+           "equipment": "Leg Extension Machine",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         },
+         {
+           "name": "Inward Pointing Leg Extensions",
+           "target": "Legs",
+           "equipment": "Leg Extension Machine",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         }
+       ],
+       "Arms": [
+         {
+           "name": "Arnold Presses",
+           "target": "Arms",
+           "equipment": "Dumbbells",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         },
+         {
+           "name": "Diamond Push-ups",
+           "target": "Arms",
+           "equipment": "N/A",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         },
+         {
+           "name": "Weighted Dips",
+           "target": "Arms",
+           "equipment": "Weighted Dips",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         },
+         {
+           "name": "Single-Arm Dumbbell Rows",
+           "target": "Arms",
+           "equipment": "Dumbbells",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         },
+         {
+           "name": "Supinated Close-Grip Pull-ups",
+           "target": "Arms",
+           "equipment": "Pull-up Bars",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         }
+       ],
+       "Abs": [
+         {
+           "name": "Ab Wheels",
+           "target": "Abs",
+           "equipment": "Ab Wheels",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         },
+         {
+           "name": "Glute Bridges",
+           "target": "Abs",
+           "equipment": "Dumbbells",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         },
+         {
+           "name": "Vacuum Holds",
+           "target": "Abs",
+           "equipment": "N/A",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         },
+         {
+           "name": "Side Planks",
+           "target": "Abs",
+           "equipment": "N/A",
+           "sets": 4,
+           "reps": "8-10",
+           "rest": "60-90"
+         }
+       ],
+       "Back":[
+        {
+            "name": "Lat Pulldowns",
+            "target": "Back",
+            "equipment": "Lat pulldown machine",
+            "sets": 4,
+            "reps": "8-10",
+            "rest": 60
+        },
+        {
+         "name": "Pull-ups",
+         "target": "Back",
+         "equipment": "Pull-up Bars",
+         "sets": 4,
+         "reps": "8-10",
+         "rest": 60
+         },
+         {
+         "name": "Rack Pulls",
+         "target": "Back",
+         "equipment": "Weighted dips",
+         "sets": 4,
+         "reps": "8-10",
+         "rest": 60
+         },
+         {
+         "name": "Supermans",
+         "target": "Back",
+         "equipment": "N/A",
+         "sets": 4,
+         "reps": "8-10",
+         "rest": 60
+         },
+         {
+         "name": "Russian Kettlebell Swings",
+         "target": "Back",
+         "equipment": "Kettlebell",
+         "sets": 4,
+         "reps": "8-10",
+         "rest": 60
+         },
+         {
+         "name": "Barbell Good Mornings",
+         "target": "Back",
+         "equipment": "Barbell",
+         "sets": 4,
+         "reps": "8-10",
+         "rest": 60
+         }
+       ],
+       "Shoulders":[
+         {
+             "name": "Front Raises",
+             "target": "Shoulders",
+             "equipment": "Dumbbels",
+             "sets": 4,
+             "reps": "8-10",
+             "rest": 60
+         },
+         {
+          "name": "Bench Press",
+          "target": "Shoulders",
+          "equipment": "Barbell, Bench",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": 60
+          },
+          {
+          "name": "Barbell Upright Row",
+          "target": "Shoulders",
+          "equipment": "Barbell",
+          "sets": 4,
+             "reps": "8-10",
+             "rest": 60
+          },
+          {
+          "name": "Barbell Overhead Press",
+          "target": "Shoulders",
+          "equipment": "Barbell",
+          "sets": 4,
+             "reps": "8-10",
+             "rest": 60
+          },
+          {
+          "name": "Supported Incline Dumbbell Rows",
+          "target": "Shoulders",
+          "equipment": "Dumbbels",
+          "sets": 4,
+             "reps": "8-10",
+             "rest": 60
+          }
+        ]
+    },
+    "Advance": {
+      "Chest": [
+        {
+          "name": "Barbell Bench Press",
+          "target": "Chest",
+          "equipment": "Barbell, Bench",
+          "sets": 5,
+          "reps": "8-12",
+          "rest": "60-90"
+        },
+        {
+          "name": "Incline Dumbbell Press",
+          "target": "Chest",
+          "equipment": "Dumbbells, Incline Bench",
+          "sets": 5,
+          "reps": "8-12",
+          "rest": "60-90"
+        },
+        {
+          "name": "Cable Flyes",
+          "target": "Chest",
+          "equipment": "Cable Machine",
+          "sets": 4,
+          "reps": "10-15",
+          "rest": "60-90"
+        },
+        {
+          "name": "Decline Barbell Bench Press",
+          "target": "Chest",
+          "equipment": "Barbell, Decline Bench",
+          "sets": 5,
+          "reps": "8-12",
+          "rest": "60-90"
+        }
+      ],
+      "Legs": [
+        {
+          "name": "Back Squats",
+          "target": "Legs",
+          "equipment": "Barbell, Power Rack",
+          "sets": 5,
+          "reps": "8-12",
+          "rest": "90-120"
+        },
+        {
+          "name": "Romanian Deadlifts",
+          "target": "Legs",
+          "equipment": "Barbell",
+          "sets": 4,
+          "reps": "10-15",
+          "rest": "90-120"
+        },
+        {
+          "name": "Leg Press Machine",
+          "target": "Legs",
+          "equipment": "Leg Press Machine",
+          "sets": 5,
+          "reps": "8-12",
+          "rest": "90-120"
+        },
+        {
+          "name": "Walking Lunges",
+          "target": "Legs",
+          "equipment": "Dumbbells",
+          "sets": 4,
+          "reps": "10-15",
+          "rest": "60-90"
+        }
+      ],
+      "Arms": [
+        {
+          "name": "Standing Barbell Curl",
+          "target": "Arms",
+          "equipment": "Barbell",
+          "sets": 4,
+          "reps": "10-15",
+          "rest": "60-90"
+        },
+        {
+          "name": "Overhead Tricep Extension",
+          "target": "Arms",
+          "equipment": "Dumbbell",
+          "sets": 4,
+          "reps": "10-15",
+          "rest": "60-90"
+        },
+        {
+          "name": "Hammer Curls",
+          "target": "Arms",
+          "equipment": "Dumbbells",
+          "sets": 4,
+          "reps": "10-15",
+          "rest": "60-90"
+        },
+        {
+          "name": "Tricep Dips",
+          "target": "Arms",
+          "equipment": "Parallel Bars",
+          "sets": 4,
+          "reps": "10-15",
+          "rest": "60-90"
+        },
+        {
+          "name": "Preacher Curl",
+          "target": "Arms",
+          "equipment": "Preacher Curl Bench, EZ Bar",
+          "sets": 4,
+          "reps": "10-15",
+          "rest": "60-90"
+        }
+      ],
+      "Abs": [
+        {
+          "name": "Hanging Leg Raise",
+          "target": "Abs",
+          "equipment": "Pull-up Bar",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90"
+        },
+        {
+          "name": "Russian Twists",
+          "target": "Abs",
+          "equipment": "N/A",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90"
+        },
+        {
+          "name": "Plank Variations",
+          "target": "Abs",
+          "equipment": "N/A",
+          "sets": 4,
+          "reps": "60s",
+          "rest": "60-90"
+        },
+        {
+          "name": "Ab Rollouts",
+          "target": "Abs",
+          "equipment": "Ab Wheel",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90"
+        }
+      ],
+      "Back": [
+        {
+          "name": "Deadlifts",
+          "target": "Back",
+          "equipment": "Barbell",
+          "sets": 5,
+          "reps": "8-12",
+          "rest": "90-120"
+        },
+        {
+         "name": "Rack Pulls",
+         "target": "Back",
+         "equipment": "Weighted Dips",
+         "sets": 5,
+         "reps": "10-12",
+         "rest": "60-90"
+        },
+        {
+          "name": "Pull-ups",
+          "target": "Back",
+          "equipment": "Pull-up Bar",
+          "sets": 4,
+          "reps": "10-15",
+          "rest": "60-90"
+        },
+        {
+          "name": "Bent Over Barbell Rows",
+          "target": "Back",
+          "equipment": "Barbell",
+          "sets": 5,
+          "reps": "8-12",
+          "rest": "60-90"
+        },
+        {
+          "name": "Single-Arm Dumbbell Rows",
+          "target": "Back",
+          "equipment": "Dumbbell",
+          "sets": 4,
+          "reps": "10-15",
+          "rest": "60-90"
+        },
+        {
+          "name": "Face Pulls",
+          "target": "Back",
+          "equipment": "Cable Machine",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90"
+        }
+      ],
+      "Shoulders": [
+        {
+          "name": "Seated Dumbbell Press",
+          "target": "Shoulders",
+          "equipment": "Dumbbells",
+          "sets": 4,
+          "reps": "10-15",
+          "rest": "60-90"
+        },
+        {
+          "name": "Lateral Raises",
+          "target": "Shoulders",
+          "equipment": "Dumbbells",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90"
+        },
+        {
+          "name": "Face Pulls",
+          "target": "Shoulders",
+          "equipment": "Cable Machine",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90"
+        },
+        {
+          "name": "Shrugs",
+          "target": "Shoulders",
+          "equipment": "Barbell, Dumbbells",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90"
+        },
+        {
+          "name": "Front Plate Raises",
+          "target": "Shoulders",
+          "equipment": "Weight Plate",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90"
+        }
+      ]
+    }
+ }

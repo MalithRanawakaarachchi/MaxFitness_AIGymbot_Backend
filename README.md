@@ -8,7 +8,7 @@ $ venv\Scripts\activate.bat
 
 Install dependencies
 ```
-$ python -m pip install -r requirements.txt
+$ python -m pip install -r requirements.txt --user
 ```
 Install nltk package
 ```
@@ -29,3 +29,6 @@ python server.py
 ## run this after any new package installed
 
 python -m pip freeze > requirements.txt
+
+ python .\server.py
+

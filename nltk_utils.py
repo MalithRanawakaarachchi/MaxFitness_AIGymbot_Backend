@@ -1,6 +1,6 @@
 import numpy as np
 import nltk
-# nltk.download('punkt')
+nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
 
@@ -30,8 +30,8 @@ def bag_of_words(tokenized_sentence, words):
     1 for each known word that exists in the sentence, 0 otherwise
     example:
     sentence = ["hello", "how", "are", "you"]
-    words = ["hi", "hello", "I", "you", "bye", "thank", "cool"]
-    bog   = [  0 ,    1 ,    0 ,   1 ,    0 ,    0 ,      0]
+    words = ["hi", "hello", "I", "you", "bye", "are", "thank", "you", "cool"]
+    bog   = [  0 ,    1 ,    0 ,   1 ,    0 ,    1 ,     0,      1,      0  ]
     """
     # stem each word
     sentence_words = [stem(word) for word in tokenized_sentence]

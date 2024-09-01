@@ -44,6 +44,7 @@
       "tag": "funny",
       "patterns": [
         "Tell me a joke!",
+        "Test",
         "Tell me something funny!",
         "Do you know a joke?"
       ],
@@ -65,6 +66,31 @@
       ]
     },
     {
+      "tag": "opening_hours",
+      "patterns": ["What are your opening hours?", "what are the openning hours?","When do you open?", "What time do you close?"],
+      "responses": ["Our gym opens at 6:00 AM and closes at 10:00 PM from Monday to Friday. On weekends, we open at 8:00 AM and close at 8:00 PM."]
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["What facilities do you have?", "Gym amenities", "Equipment available"],
+      "responses": ["We have a wide range of facilities, including a fully-equipped gym with modern exercise machines, group fitness classes, locker rooms, showers, and a smoothie bar."]
+    },
+    {
+      "tag": "diet_tips",
+      "patterns": ["What are some diet tips for gym-goers?", "diet","how do i diet?","How can I improve my diet for better fitness?", "Give me some nutrition advice for workouts."],
+      "responses": ["A balanced diet with adequate protein, healthy fats, and complex carbohydrates is essential for gym-goers. Make sure to include lean meats, whole grains, fruits, vegetables, and plenty of water in your diet. It's also helpful to eat smaller, frequent meals throughout the day to maintain energy levels."]
+    },
+    {
+      "tag": "gym_foods",
+      "patterns": ["What are some recommended foods for gym enthusiasts?", "gym foods","foods","Can you suggest some pre and post-workout meals?", "Give me ideas for healthy snacks."],
+      "responses": ["Great gym foods include lean proteins like chicken, fish, tofu, or beans. For pre-workout, consider a banana with peanut butter or a protein smoothie. After a workout, opt for a combination of protein and carbohydrates, such as grilled chicken with brown rice and steamed vegetables. Snack ideas: Greek yogurt with berries, a handful of almonds, or carrot sticks with hummus."]
+    },
+    {
+      "tag": "milk_powders",
+      "patterns": ["What are the benefits of gym milk powders?","milk powder","milk", "Should I use protein powders for muscle gain?", "Tell me about different types of milk powders."],
+      "responses": ["Gym milk powders, such as protein powders, can be beneficial for muscle recovery and growth. They provide a convenient source of high-quality protein. There are various types available, including whey, casein, and plant-based options like pea or soy protein. It's important to choose a powder that aligns with your dietary preferences and consult with a nutritionist or dietitian for personalized recommendations."]
+    },
+    {
       "tag": "Lowering Blood Pressure",
       "patterns": [
         "How can I lower my blood pressure?",
@@ -77,28 +103,15 @@
       ]
     },
     {
-      "tag": "Concussion Symptoms",
-      "patterns": [
-        "How do I know if I have a concussion?",
-        "What are the symptoms of a concussion?",
-        "What happens when you have a concussion?",
-        "How is a concussion diagnosed?"
-      ],
-      "responses": [
-        "Concussions can cause a range of symptoms, including headache, dizziness, nausea, confusion, sensitivity to light and sound, and memory problems. If you have experienced a blow to the head and are experiencing any of these symptoms, you should seek medical attention."
-      ]
+      "tag": "supplements",
+      "patterns": ["Do I need to take supplements for gym workouts?","supplements", "What supplements can help improve performance?", "Are there any recommended vitamins or minerals?"],
+      "responses": ["Supplements are not essential, but they can complement a well-rounded diet. Common supplements include protein powders, creatine, BCAAs, and multivitamins. However, it's best to consult with a healthcare professional or registered dietitian to determine if any supplements are necessary for your specific goals and needs."]
     },
     {
-      "tag": "Flu Prevention",
-      "patterns": [
-        "How can I prevent the flu?",
-        "What are some ways to avoid getting the flu?",
-        "Is there anything I can do to reduce my risk of getting the flu?",
-        "What precautions should I take to avoid catching the flu?"
-      ],
+      "tag": "healthy_lifestyle",
+      "patterns": ["How can I maintain a healthy lifestyle outside the gym?","healthy lifestyle", "What are some healthy habits to incorporate?", "Tips for overall wellness."],
       "responses": [
-        "You can help prevent the flu by getting vaccinated, washing your hands regularly, avoiding close contact with sick individuals, covering your mouth and nose when coughing or sneezing, and staying home if you are sick."
-      ]
+        "In addition to regular exercise, prioritizing sleep, managing stress levels, and practicing mindful eating are crucial for a healthy lifestyle. Ensure you get enough restful sleep, engage in stress-reducing activities like meditation or yoga, and aim for a well-balanced diet. Don't forget to stay hydrated and listen to your body's needs."]
     },
     {
       "tag": "Diabetes Symptoms",
@@ -113,16 +126,79 @@
       ]
     },
     {
-      "tag": "Asthma Management",
-      "patterns": [
-        "What can I do to manage my asthma?",
-        "How can I control my asthma?",
-        "What are some ways to improve my asthma symptoms?",
-        "How can I prevent asthma attacks?"
-      ],
-      "responses": [
-        "To manage your asthma, you can try using an inhaler as prescribed by your doctor, avoiding triggers that can worsen your symptoms (such as smoke or pollen), maintaining a healthy weight, and following a treatment plan as recommended by your doctor."
-      ]
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Greetings", "Good morning", "Good afternoon"],
+      "responses": ["Hello! Welcome to our workout health chatbot.", "Hi there! How can I assist you with your workout and health?", "Hey! How may I help you with your fitness goals?"]
+    },
+    {
+      "tag": "workout_tips",
+      "patterns": ["What are some workout tips for beginners?", "How can I improve my workout routine?", "Give me some exercise advice."],
+      "responses": ["For beginners, start with a well-rounded workout routine that includes cardio, strength training, and flexibility exercises. Gradually increase intensity and duration as you progress. Ensure you warm up before exercising and cool down afterward. Don't forget to listen to your body and take rest days when needed."]
+    },
+    {
+      "tag": "equipment_info",
+      "patterns": ["Tell me about the different gym equipment you have.", "What kind of machines are available?", "Give me an overview of your fitness equipment."],
+      "responses": ["We have a variety of gym equipment, including treadmills, stationary bikes, elliptical trainers, rowing machines, weightlifting machines, and free weights. Each machine is designed to target different muscle groups and provide a well-rounded workout experience."]
+    },
+    {
+      "tag": "equipment_usage",
+      "patterns": ["How do I use the treadmill properly?", "Can you show me how to use the rowing machine?", "Tell me about using weightlifting machines."],
+      "responses": ["Sure! To use the treadmill, step onto the belt, start at a slow pace, and gradually increase the speed. For the rowing machine, sit down, strap in your feet, grip the handles, and push back with your legs, then pull the handles toward your chest while leaning slightly back. Weightlifting machines have specific instructions labeled on them; make sure to adjust the seat and handles to fit your body and follow the provided guidelines for proper form."]
+    },
+    {
+      "tag": "rowing_machine",
+      "patterns": ["Can you show me how to use the rowing machine?", "rowing machine","how to use the rowing machine?"],
+      "responses": ["For the rowing machine, sit down, strap in your feet, grip the handles, and push back with your legs, then pull the handles toward your chest while leaning slightly back."]
+    },
+    {
+      "tag": "weightlifting_machines",
+      "patterns": ["Tell me about using weightlifting machines", "weightlifting machines","how to use the weightlifting machines?"],
+      "responses": ["Weightlifting machines have specific instructions labeled on them; make sure to adjust the seat and handles to fit your body and follow the provided guidelines for proper form."]
+    },
+    {
+      "tag": "equipment_maintenance",
+      "patterns": ["How do I maintain the gym equipment?","equipment maintenance", "maintenance","equipment","What are the maintenance requirements?", "Tell me about equipment upkeep."],
+      "responses": ["Regular maintenance is essential to keep the gym equipment in good working condition. Wipe down the machines after each use to remove sweat and dirt. Check for loose screws or bolts and tighten them as needed. Lubricate moving parts according to the manufacturer's instructions. If you notice any issues or malfunctions, please report them to the gym staff immediately."]
+    },
+    {
+      "tag": "troubleshooting",
+      "patterns": ["The treadmill seems to be stuck. What should I do?","troubleshooting","equipment error", "The bike's display is not working. How can I fix it?", "Help, the weight machine is not functioning correctly!"],
+      "responses": ["I'm sorry to hear that you're experiencing issues. For safety reasons, please stop using the equipment and inform the gym staff about the problem. They will take the necessary steps to fix the issue or ensure that the equipment is temporarily out of use until it's repaired."]
+    },
+    {
+      "tag": "safety_tips",
+      "patterns": ["Can you provide some safety tips for using gym equipment?", "How can I ensure a safe workout?", "Tell me about gym equipment safety."],
+      "responses": ["Safety is crucial when using gym equipment. Always start with a warm-up and stretch before exercising. Adjust the machines to your body size and follow the equipment's instructions carefully. Use the safety bars or spotter when lifting heavy weights. Stay hydrated, and listen to your body; if something doesn't feel right, stop the exercise. If you're unsure about using any equipment, don't hesitate to ask the gym staff for assistance."]
+    },
+    {
+      "tag": "workout_plans",
+      "patterns": ["Can you suggest a workout plan for weight loss?", "I want to build muscle, what's a good workout plan?", "Give me a fitness plan."],
+      "responses": ["A weight loss workout plan may include a mix of cardio exercises like running or cycling, along with strength training to maintain muscle mass. For muscle building, focus on compound movements like squats, deadlifts, and bench presses. Consider working with a personal trainer to create a customized workout plan based on your goals and fitness level."]
+    },
+    {
+      "tag": "exercise_technique",
+      "patterns": ["How do I perform a proper push-up?", "exercise techniques","techniques","Can you show me the correct form for lunges?", "Tell me about proper exercise techniques."],
+      "responses": ["To perform a push-up, start in a plank position with hands shoulder-width apart. Lower your body until your chest almost touches the ground, then push back up. For lunges, step one foot forward and lower your body until both knees are at a 90-degree angle. Keep your front knee aligned with your ankle. It's essential to maintain proper form during exercises to prevent injuries and maximize effectiveness."]
+    },
+    {
+      "tag": "nutrition_tips",
+      "patterns": ["What role does nutrition play in workout success?","nutrition", "Can you give me some pre-workout meal ideas?", "How should I eat after a workout?"],
+      "responses": ["Nutrition plays a crucial role in workout success. Fuel your body with balanced meals that include protein, complex carbs, and healthy fats. Pre-workout, consider a light meal with carbs and protein, such as a banana with yogurt. After a workout, aim for a combination of protein and carbs, like a chicken and vegetable stir-fry with brown rice."]
+    },
+    {
+      "tag": "fitness_motivation",
+      "patterns": ["How do I stay motivated to exercise regularly?", "motivation","I'm lacking workout motivation, any tips?", "Tell me about staying consistent in workouts."],
+      "responses": ["Staying motivated can be challenging, but setting realistic goals, tracking your progress, and celebrating achievements can help. Find a workout buddy or join group classes for accountability and support. Also, remind yourself of the benefits of regular exercise, such as improved mood and increased energy levels."]
+    },
+    {
+      "tag": "injury_prevention",
+      "patterns": ["How can I prevent workout-related injuries?", "prevent injuries","Give me tips for avoiding exercise injuries.", "Tell me about injury prevention techniques."],
+      "responses": ["Injury prevention is vital. Always warm up before workouts to increase blood flow to your muscles. Use proper form during exercises and don't push yourself too hard too quickly. Incorporate rest days into your routine to allow your body to recover. If you experience pain or discomfort, don't ignore it; consult a fitness professional or healthcare provider."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm sorry, but I couldn't understand that. Could you please rephrase your question?", "Apologies, I'm not sure how to respond to that. If you need assistance, feel free to ask a different question."]
     }
   ]
 }

@@ -57,5 +57,18 @@ def chatbot():
     response = get_response(message)
     return jsonify({'response': response})
 
+@app.route('/generate-workout', methods=['POST'])
+def generate_workout():
+    with open('workout.json', 'r') as file:
+        workouts = json.load(file)
+
+    data = request.json
+    target_area = data.get('target_area')
+    level = data.get('level')
+
+    response = workouts.get(level, {}).get(target_area, [])
+    return jsonify(response)
+
+
 if __name__ == '__main__':
     app.run(debug=True)
